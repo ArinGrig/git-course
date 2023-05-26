@@ -1,3 +1,9 @@
+package HW2_OTUS;
+
+import HW2_OTUS.Animal;
+import HW2_OTUS.Cat;
+import HW2_OTUS.Dog;
+import HW2_OTUS.Duck;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -1,3 +1,4 @@
+package HW2_OTUS;
 
 public class Cat extends Animal {
     public Cat(String name, int age, double weight, String color) {

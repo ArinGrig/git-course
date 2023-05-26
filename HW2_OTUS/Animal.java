@@ -1,3 +1,4 @@
+package HW2_OTUS;
 
 public class Animal {
     private String name;
