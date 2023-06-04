@@ -1,4 +1,4 @@
-package HW2_OTUS;
+package Animals;
 
 public interface Flying {
     void fly();

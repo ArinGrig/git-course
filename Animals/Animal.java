@@ -1,6 +1,6 @@
-package HW2_OTUS;
+package Animals;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private int age;
     private double weight;

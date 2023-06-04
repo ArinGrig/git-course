@@ -1,21 +1,13 @@
-package HW2_OTUS;
+package Animals;
 
-import HW2_OTUS.Animal;
-import HW2_OTUS.Cat;
-import HW2_OTUS.Dog;
-import HW2_OTUS.Duck;
-
+import Animals.Birds.Duck;
+import Animals.Pets.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         ArrayList<Animal> animals = new ArrayList<>();
-
-        enum Command {
-            ADD, LIST, EXIT
-        }
-        
         try (Scanner scanner = new Scanner(System.in)) {
             while (true) {
                 System.out.println("Введите команду (add/list/exit):");
@@ -41,7 +33,7 @@ public class Main {
                             System.out.println("Введите цвет:");
                             String color = scanner.nextLine().trim();
             
-                            Animal animal;
+                            Animal animal = null ;
             
                             switch (type) {
                                 case "cat":

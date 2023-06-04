@@ -1,4 +1,7 @@
-package HW2_OTUS;
+package Animals.Birds;
+
+import Animals.Animal;
+import Animals.Flying;
 
 public class Duck extends Animal implements Flying {
     public Duck(String name, int age, double weight, String color) {

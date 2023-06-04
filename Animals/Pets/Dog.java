@@ -1,4 +1,6 @@
-package HW2_OTUS;
+package Animals.Pets;
+
+import Animals.Animal;
 
 public class Dog extends Animal {
     public Dog(String name, int age, double weight, String color) {
